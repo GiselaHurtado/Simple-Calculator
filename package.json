@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
+ 	"sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiselaHurtado/Simple-Calculator.git"
+  },
+  "author": "GisELA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiselaHurtado/Simple-Calculator/issues"
+  },
+  "homepage": "https://github.com/GiselaHurtado/Simple-Calculator#readme",
+  "dependencies": {
+    "sass": "^1.77.4"
+  }
+}
