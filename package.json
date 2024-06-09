@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
- 	"sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/GiselaHurtado/Simple-Calculator#readme",
   "dependencies": {
     "sass": "^1.77.4"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
   }
 }
